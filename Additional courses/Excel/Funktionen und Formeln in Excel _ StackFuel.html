@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Data Training for Professionals - Machen Sie Ihre Mitarbeiter zu Datenexperten.">
+    <title>  Funktionen und Formeln in Excel | StackFuel</title>
+    <meta name='robots' content='noindex, nofollow' />
+<link rel='dns-prefetch' href='//player.3qsdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/datalab.stackfuel.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.3"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://datalab.stackfuel.com/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--electric-indigo: #5500EB;--wp--preset--color--midnight-blue: #140046;--wp--preset--color--lime-yellow: #C8FF00;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://datalab.stackfuel.com/app/plugins/contact-form-7/includes/css/styles.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='main-popup-css-css'  href='https://datalab.stackfuel.com/app/plugins/stackfuel-platform-popup/assets/css/main.css?ver=ab55e4e94e9bd2887d9cc031ebabf883119f461b' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css-css'  href='https://datalab.stackfuel.com/app/plugins/stackfuel-platform-tracking-plugin/assets/css/main.css?ver=ab55e4e94e9bd2887d9cc031ebabf883119f461b' type='text/css' media='all' />
+<link rel='stylesheet' id='core-css'  href='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/css/core.css?ver=ab55e4e94e9bd2887d9cc031ebabf883119f461b' type='text/css' media='all' />
+<link rel='stylesheet' id='app-css'  href='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/css/app.css?ver=ab55e4e94e9bd2887d9cc031ebabf883119f461b' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css'  href='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/css/style.css?ver=ab55e4e94e9bd2887d9cc031ebabf883119f461b' type='text/css' media='all' />
+<link rel='stylesheet' id='scrollbar-css-css'  href='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/css/perfect-scrollbar.css' type='text/css' media='all' />
+<link rel='stylesheet' id='prism-css-css'  href='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/css/prism.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fa-css-css'  href='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/css/fa.css' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-lightbox-css-css'  href='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/css/simpleLightbox.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style_login_widget-css'  href='https://datalab.stackfuel.com/app/plugins/miniorange-oauth-oidc-single-sign-on/resources/css/style_login_widget.css?ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='um_modal-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/css/um-modal.min.css?ver=2.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='um_ui-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/jquery-ui/jquery-ui.min.css?ver=1.13.2' type='text/css' media='all' />
+<link rel='stylesheet' id='um_tipsy-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.css?ver=1.0.0a' type='text/css' media='all' />
+<link rel='stylesheet' id='um_raty-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/raty/um-raty.min.css?ver=2.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/select2/select2.min.css?ver=4.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='um_fileupload-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/css/um-fileupload.min.css?ver=2.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='um_confirm-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='um_datetime-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/pickadate/default.min.css?ver=3.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='um_datetime_date-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/pickadate/default.date.min.css?ver=3.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='um_datetime_time-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/pickadate/default.time.min.css?ver=3.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='um_fonticons_ii-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-ii.min.css?ver=2.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='um_fonticons_fa-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-fa.min.css?ver=2.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='um_fontawesome-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/css/um-fontawesome.min.css?ver=6.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='um_common-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/css/common.min.css?ver=2.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='um_responsive-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/css/um-responsive.min.css?ver=2.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='um_styles-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/css/um-styles.min.css?ver=2.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='um_crop-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/cropper/cropper.min.css?ver=1.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='um_profile-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/css/um-profile.min.css?ver=2.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='um_account-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/css/um-account.min.css?ver=2.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='um_misc-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/css/um-misc.min.css?ver=2.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='um_default_css-css'  href='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/css/um-old-default.min.css?ver=2.8.6' type='text/css' media='all' />
+<script type='text/javascript' src='https://player.3qsdn.com/js3q.latest.js' id='3q-player-lib-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/stackfuel-platform-3qsdn/js/player.js?ver=5.9.3' id='3q-player-js'></script>
+<script type='text/javascript' id='main-popup-js-js-extra'>
+/* <![CDATA[ */
+var ajax = {"url":"https:\/\/datalab.stackfuel.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="module" src="https://datalab.stackfuel.com/app/plugins/stackfuel-platform-popup/assets/js/main.js?ver=ab55e4e94e9bd2887d9cc031ebabf883119f461b"></script><script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/stackfuel-platform-popup/assets/js/js.cookie.min.js?ver=3.0.1' id='js-cookie-js-js'></script>
+<script type='text/javascript' id='sf-quiz-engine-main-js-extra'>
+/* <![CDATA[ */
+var localized = {"unanswered":"Bitte beantworten Sie diese Frage."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/stackfuel-platform-quiz-engine/assets/js/sf-quiz-main.js?ver=ab55e4e94e9bd2887d9cc031ebabf883119f461b' id='sf-quiz-engine-main-js'></script>
+<script type='text/javascript' id='feedback-js-js-extra'>
+/* <![CDATA[ */
+var feedback = {"user_id":"4312068d3fce77a0800f50c884f216c6e050e9dc","training":"excel-basics-2","training_alias":"lbexcl","module":null,"batch":"lib-0000-de-azav","chapter":"excel-basics","lecture":"funktionen-und-formeln-in-excel","type":"exercise","success":"Danke f\u00fcr dein Feedback!","option_error":"Bitte gib uns entweder eine Sternebewertung an oder hinterlasse uns eine Nachricht.","error":"Beim Senden deiner Nachricht ist ein Fehler aufgetreten. Bitte versuche es sp\u00e4ter noch einmal."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/stackfuel-platform-tracking-plugin/assets/js/content_feedback.js?ver=ab55e4e94e9bd2887d9cc031ebabf883119f461b' id='feedback-js-js'></script>
+<script type='text/javascript' id='main-track-js-js-extra'>
+/* <![CDATA[ */
+var sf_data = {"ajaxurl":"https:\/\/datalab.stackfuel.com\/wp-admin\/admin-ajax.php","lecture_id":"446979"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/stackfuel-platform-tracking-plugin/assets/js/main.js?ver=ab55e4e94e9bd2887d9cc031ebabf883119f461b' id='main-track-js-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/js/perfect-scrollbar.js' id='scrollbar-js-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/js/sidebar.js' id='sidebar-js-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/js/prism.js' id='prism-js-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/js/simpleLightbox.min.js' id='simple-lightbox-js-js'></script>
+<script type='text/javascript' id='forum_upload-js-js-extra'>
+/* <![CDATA[ */
+var ajaxurl = "https:\/\/datalab.stackfuel.com\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/js/forum_upload.js?ver=ab55e4e94e9bd2887d9cc031ebabf883119f461b' id='forum_upload-js-js'></script>
+<script type='text/javascript' id='main-js-js-extra'>
+/* <![CDATA[ */
+var ajaxurl = "https:\/\/datalab.stackfuel.com\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/js/main.js?ver=ab55e4e94e9bd2887d9cc031ebabf883119f461b' id='main-js-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/js/clappr.min.js' id='clappr-js-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/js/clappr-speed.min.js' id='clappr-speed-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/js/dash-shaka-playback.js' id='clappr-shaka-js-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/js/level-selector.min.js' id='clappr-level-select-js-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/js/um-gdpr.min.js?ver=2.8.6' id='um-gdpr-js'></script>
+<link rel="https://api.w.org/" href="https://datalab.stackfuel.com/wp-json/" /><link rel="alternate" type="application/json" href="https://datalab.stackfuel.com/wp-json/wp/v2/item/446979" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://datalab.stackfuel.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://datalab.stackfuel.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.9.3" />
+<link rel="canonical" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/funktionen-und-formeln-in-excel/" />
+<link rel='shortlink' href='https://datalab.stackfuel.com/?p=446979' />
+<link rel="alternate" type="application/json+oembed" href="https://datalab.stackfuel.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdatalab.stackfuel.com%2Ftraining%2Fexcel-basics-2%2Fexcel-basics%2Ffunktionen-und-formeln-in-excel%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://datalab.stackfuel.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdatalab.stackfuel.com%2Ftraining%2Fexcel-basics-2%2Fexcel-basics%2Ffunktionen-und-formeln-in-excel%2F&#038;format=xml" />
+		<style type="text/css">
+			.um_request_name {
+				display: none !important;
+			}
+		</style>
+	    <link rel="icon" href="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/logos/favicon.png" type="image/x-icon" />
+<link rel="icon" href="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/icons/blue_Stack_RGB.svg" sizes="32x32" />
+<link rel="icon" href="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/icons/blue_Stack_RGB.svg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/icons/blue_Stack_RGB.svg" />
+<meta name="msapplication-TileImage" content="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/icons/blue_Stack_RGB.svg" />
+</head>
+<body class="item-template-default single single-item postid-446979 logged-in type_item">
+<!-- Sidebar -->
+<aside class="sidebar sidebar-expand-lg sidebar-iconic">
+    <header class="sidebar-header">
+    <span class="logo">
+      <a href="/" onclick="interactionTracking('Navigation', 'Click Navigation', 'Logo')"><img src="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/logos/logo-navi.svg" alt="logo"></a>
+    </span>
+    </header>
+
+    <nav class="sidebar-navigation ps-container ps-theme-default">
+        <ul class="menu">
+            <li class="menu-item ">
+                <a class="menu-link" href="/" onclick="interactionTracking('Navigation', 'Click Navigation', 'Startseite')">
+                    <img src="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/home.svg" class="filter-white" alt="logo" style="width: 19.55px; height:19.55px; margin-right: 5px">
+                    <span class="title">Startseite</span>
+                </a>
+            </li>
+            <li class="menu-item ">
+                <a class="menu-link" href="/trainings" onclick="interactionTracking('Navigation', 'Click Navigation', 'Trainings')">
+                    <img src="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/trainings.svg" class="filter-white" alt="logo" style="width: 22.28px; height:22.28px; margin-right: 5px">
+                    <span class="title">Trainings</span>
+                </a>
+            </li>
+                            <li class="menu-item active">
+                    <a class="menu-link" href="/library" onclick="interactionTracking('Navigation', 'Click Navigation', Lernbibliothek)">
+                        <img class="filter-white" src="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/book-study.svg" alt="logo" style="width: 30px; height: 30px; margin-right: 5px">
+                        <span class="title">Lernbibliothek</span>
+                    </a>
+                </li>
+                        <li class="menu-item ">
+                <a class="menu-link" href="/forums" onclick="interactionTracking('Navigation', 'Click Navigation', 'Foren')">
+                    <img src="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/forum.svg" class="filter-white" alt="logo" style="width: 22.28px; height:22.28px; margin-right: 5px">
+                    <span class="title">Foren</span>
+                </a>
+            </li>
+            <li class="menu-item ">
+                <a class="menu-link" href="/profile" onclick="interactionTracking('Navigation', 'Click Navigation', 'Profil')">
+                    <img src="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/profil.svg" class="filter-white" alt="logo" style="width: 18.95px; height:18.95px; margin-right: 5px">
+                    <span class="title">Profil</span>
+                </a>
+            </li>
+            <li class="menu-item ">
+                <a class="menu-link" href="/hilfe" onclick="interactionTracking('Navigation', 'Click Navigation', 'Hilfe)">
+                    <img src="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/faq.svg" class="filter-white" alt="logo" style="width: 22.28px; height:22.28px; margin-right: 5px">
+                    <span class="title">Hilfe</span>
+                </a>
+            </li>
+            <li class="menu-item">
+    <a class="menu-link" href="https://stackfuel.com/de/stackfuel-friends/?utm_source=navigation&utm_medium=lms&utm_campaign=referral" onclick="interactionTracking('Navigation', 'Click Navigation', Empfehlen)">
+        <img class="referral-icon" src="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/money-receive_white.svg" alt="logo" style="width: 35px; height: 35px; margin-right: 5px">
+        <span class="title">Empfehlen</span>
+    </a>
+</li>
+            <li class="menu-item">
+                <a class="menu-link" href="/signout/" onclick="interactionTracking('Account', 'Click Logout', 'Ausloggen')">
+                    <img src="https://datalab.stackfuel.com/app/themes/stackfuel-platform-theme/assets/img/logout.svg" class="filter-white" alt="logo" style="width: 22.28px; height:22.28px; margin-right: 5px">
+                    <span class="title">Ausloggen</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+</aside>
+<!-- END Sidebar -->
+<!-- Topbar -->
+<header class="topbar ">
+    <div class="topbar-left">
+        <div class="breadcrumbs"><i class="fa fa-paper-plane-o" aria-hidden="true"></i><div class="level"><a href="https://datalab.stackfuel.com/training/excel-basics-2/">Excel Basics</a></div><div class="separator"><i class="fa fa-angle-right" aria-hidden="true"></i></div><div class="level">Excel Basics</div><div class="separator"><i class="fa fa-angle-right" aria-hidden="true"></i></div><div class="level"><a href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/funktionen-und-formeln-in-excel/">Funktionen und Formeln in Excel</a></div></div><noscript>
+  <div class="no_js">JavaScript ist in deinem Browser ausgeschaltet. Das kann dazu führen, dass du die Umgebung nicht vollständig nutzen kannst.</div>
+</noscript>
+        <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+    </div>
+
+    <div class="topbar-right">
+        <ul class="topbar-btns">
+            <li class="dropdown d-none d-md-block">
+                <a href="/signout/" onclick="interactionTracking('Account', 'Click Logout', 'Top-Right')">
+                    <span class="topbar-btn">
+                        <i class="fa fa-sign-out"></i>
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    </header>
+
+<!-- END Topbar -->
+<!-- Main container -->
+<main class="main-container">
+    <aside class="aside training-menu aside-expand-md">
+        <div class="training-menu">
+            <div class="scrollable">
+                <ul id="training-menu">
+                    <li class="chapter active"><div>Excel Basics<div class="progress_block"> <div  class="c100 p0 " > <div class="slice"> <div id="percentage_bar" class="bar" style="transform:rotate(0deg); "></div> <div class="fill"></div> </div> </div> </div></div><ul><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/willkommen-im-kurs/"><div class="completed"><input type="checkbox" data-id="446974" id="checkbox_446974" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446974"></label></div><i class="icon video" data-type="video"></i><span class="link_text">Willkommen im Kurs </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/was-du-vorher-wissen-solltest/"><div class="completed"><input type="checkbox" data-id="446975" id="checkbox_446975" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446975"></label></div><i class="icon text" data-type="text"></i><span class="link_text">Was du vorher wissen solltest&#8230; </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/szenario-willis-budgetplanung/"><div class="completed"><input type="checkbox" data-id="446976" id="checkbox_446976" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446976"></label></div><i class="icon video" data-type="video"></i><span class="link_text">Szenario: Willis Budgetplanung </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/ein-erster-excel-eindruck/"><div class="completed"><input type="checkbox" data-id="446977" id="checkbox_446977" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446977"></label></div><i class="icon notebook" data-type="exercise"></i><span class="link_text">Ein erster Excel-Eindruck </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/wofuer-nutzen-wir-excel/"><div class="completed"><input type="checkbox" data-id="446978" id="checkbox_446978" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446978"></label></div><i class="icon text" data-type="text"></i><span class="link_text">Wofür nutzen wir Excel? </span></a><ul></ul></li><li class="lecture active"><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/funktionen-und-formeln-in-excel/"><div class="completed"><input type="checkbox" data-id="446979" id="checkbox_446979" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446979"></label></div><i class="icon notebook" data-type="exercise"></i><span class="link_text">Funktionen und Formeln in Excel </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/zellbezuege/"><div class="completed"><input type="checkbox" data-id="446980" id="checkbox_446980" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446980"></label></div><i class="icon notebook" data-type="exercise"></i><span class="link_text">Zellbezüge </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/best-practices-fuer-effiziente-arbeit-in-excel/"><div class="completed"><input type="checkbox" data-id="446981" id="checkbox_446981" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446981"></label></div><i class="icon text" data-type="text"></i><span class="link_text">Best Practices für effiziente Arbeit in Excel </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/tabellen-in-excel/"><div class="completed"><input type="checkbox" data-id="446982" id="checkbox_446982" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446982"></label></div><i class="icon notebook" data-type="exercise"></i><span class="link_text">Tabellen in Excel </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/filtern-und-sortieren/"><div class="completed"><input type="checkbox" data-id="446983" id="checkbox_446983" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446983"></label></div><i class="icon notebook" data-type="exercise"></i><span class="link_text">Filtern und Sortieren </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/szenario-abschluss-willis-budgetplanung/"><div class="completed"><input type="checkbox" data-id="446984" id="checkbox_446984" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446984"></label></div><i class="icon text" data-type="text"></i><span class="link_text">Szenario-Abschluss: Willis Budgetplanung </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/cheat-sheet-excel-basics/"><div class="completed"><input type="checkbox" data-id="446985" id="checkbox_446985" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446985"></label></div><i class="icon pdf" data-type="pdf"></i><span class="link_text">Cheat Sheet Excel Basics </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/abschlussquiz/"><div class="completed"><input type="checkbox" data-id="446986" id="checkbox_446986" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446986"></label></div><i class="icon quiz" data-type="quiz"></i><span class="link_text">Abschlussquiz </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/gib-uns-feedback-zum-kurs/"><div class="completed"><input type="checkbox" data-id="446987" id="checkbox_446987" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446987"></label></div><i class="icon homework" data-type="homework"></i><span class="link_text">Gib uns Feedback zum Kurs! </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/abschluss/"><div class="completed"><input type="checkbox" data-id="446988" id="checkbox_446988" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446988"></label></div><i class="icon video" data-type="video"></i><span class="link_text">Abschluss </span></a><ul></ul></li></ul></li><li class="chapter "><div>Excel Basics (Lösungen)<div class="progress_block"> <div  class="c100 p0 " > <div class="slice"> <div id="percentage_bar" class="bar" style="transform:rotate(0deg); "></div> <div class="fill"></div> </div> </div> </div></div><ul><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics-loesungen/loesung-ein-erster-excel-eindruck/"><div class="completed"><input type="checkbox" data-id="446990" id="checkbox_446990" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446990"></label></div><i class="icon notebook" data-type="exercise"></i><span class="link_text">Lösung: Ein erster Excel-Eindruck </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics-loesungen/loesung-funktionen-und-formeln-in-excel/"><div class="completed"><input type="checkbox" data-id="446991" id="checkbox_446991" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446991"></label></div><i class="icon notebook" data-type="exercise"></i><span class="link_text">Lösung: Funktionen und Formeln in Excel </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics-loesungen/loesung-zellbezuege/"><div class="completed"><input type="checkbox" data-id="446992" id="checkbox_446992" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446992"></label></div><i class="icon notebook" data-type="exercise"></i><span class="link_text">Lösung: Zellbezüge </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics-loesungen/loesung-tabellen-in-excel/"><div class="completed"><input type="checkbox" data-id="446993" id="checkbox_446993" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446993"></label></div><i class="icon notebook" data-type="exercise"></i><span class="link_text">Lösung: Tabellen in Excel </span></a><ul></ul></li><li class="lecture "><a class="lecture-link" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics-loesungen/loesung-filtern-und-sortieren/"><div class="completed"><input type="checkbox" data-id="446994" id="checkbox_446994" class="progress_checkbox" value="complete" name="check" /><label for="checkbox_446994"></label></div><i class="icon notebook" data-type="exercise"></i><span class="link_text">Lösung: Filtern und Sortieren </span></a><ul></ul></li></ul></li>                </ul>
+            </div>
+        </div>
+        <button class="aside-toggler"></button>
+    </aside>
+    <!-- START: main content -->
+<div class="main-content"><div id="text-content-styling" class="row courses"><div class="col-md-12"><div class="card single-training exercise">
+    <div class="icon_lecture"><span class="circle_around"><i class="iconProp exercise"></i></span></div>
+
+    <!-- START: card title -->
+    <div class="card-title">
+        <div style="display: flex; flex-direction: column;">
+            <h1>Funktionen und Formeln in Excel</h1>
+                <div class="total-title">
+Excel Basics  - KB - E2                </div>
+        </div>
+        <div class="question_count"><span>Fragen zur Lektion: 0</span></div>        <a onclick="interactionTracking('Training', 'Click Lecture Ask Question Button')" href="/forums/lecture-446979/#new_question_anchor" class="btn btn-info ask_question"><i class="icon-question"></i> Frage stellen</a>
+        <div class="wrap_buttons">
+            <div onclick="interactionTracking('Training', 'Click Lecture Feedback Button')" id="trigger_feedback" class="btn"><span><i class="fa fa-star"></i>&nbsp;&nbsp;Feedback</span></div>
+            <div id="pagination">
+                                    <a onclick="interactionTracking('Training', 'Navigate to Previous Lecture', '&lt;')" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/wofuer-nutzen-wir-excel/" class="pagination prev btn btn-info previous"><i class="fa fa-chevron-left"></i></a>
+                                                        <a onclick="interactionTracking('Training', 'Navigate to Next Lecture', '&gt;')" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/zellbezuege/" class="pagination next btn btn-info"><i class="fa fa-chevron-right"></i></a>
+                                </div>
+        </div>
+    </div>
+    <!-- END: card title -->
+
+    <!-- START: lecture content -->
+    <div class="card-body">
+
+<p>Bearbeitungszeit: ca. 45 Minuten</p>
+
+
+
+<p>Excel eignet sich hervorragend dazu, Berechnungen durchzuführen. Dazu können wir entweder Operatoren oder bereitgestellte Funktionen nutzen. Beide Varianten lassen sich auch kombinieren. In dieser Übung werden wir uns ansehen, wie das Rechnen in Excel funktioniert. Nach dieser Übung kannst du</p>
+
+
+
+<ul><li>Berechnungen mit Operatoren durchführen,</li><li>die eingebauten Excel-Funktionen nutzen und</li><li>dabei Zellbezüge verwenden.</li></ul>
+
+
+
+<p>Diese Excel-Fähigkeiten üben wir an einem praktischen Beispiel. Lass uns genauer betrachten, worum es in diesem Szenario geht.</p>
+
+
+    <div class="sf_box szenario">
+        <p><strong>Szenario:</strong> Willi möchte seine Finanzen besser organisieren, um herauszufinden, ob er genug Geld für seine Altersvorsorge hat und welche Ausgaben er senken könnte. Dafür sammeln wir seine Einnahmen und Ausgaben des letzten Jahres, ordnen sie in Kategorien und erstellen eine strukturierte Tabelle. Am Ende erstellen wir eine Übersicht über die monatlichen Sparbeträge, die sowohl die Altersvorsorge als auch die Fixkosten berücksichtigt. Mit dieser Übersicht kann Willi seine monatlichen Sparziele realistisch festlegen und seine Finanzen besser im Blick behalten.</p>
+<p>
+In der letzten Übung haben wir Willis Einnahmen und Ausgaben für Januar 2023 strukturiert in einer Excel-Arbeitsmappe erfasst. Inzwischen hat Willi alle weiteren Einnahmen und Ausgaben für das gesamte letzte Jahr ergänzt. Um später seine Sparbeträge mit den Sparzielen zu vergleichen, benötigt Willi zunächst einen Überblick darüber, wie viel Geld er pro Monat mehr einnimmt als er ausgibt. In dieser Übung unterstützen wir ihn dabei, indem wir die monatlichen Einnahmen und Ausgaben zusammenfassen und die Überschüsse berechnen.
+</p>    </div>
+    
+
+
+
+<p>Bevor wir loslegen, lade dir zunächst Willis Datei herunter und schau sie dir genau an.</p>
+
+
+<p><a href="/training-content/excel-basics/data/Willis_Finanzen_Uebung02.xlsx" class="btn sf_download" download><i class="fa fa-download"></i> Download Willis_Finanzen_Uebung02.xlsx</a></p>
+
+
+
+<p>Willi hat seine Belege und Kontoauszüge für das vergangene Jahr gesammelt und mit unserer Hilfe in das Arbeitsblatt <font color="#5500EB">Kontobewegungen</font> eingetragen. Das Arbeitsblatt enthält nun alle Einnahmen und Ausgaben für das gesamte vergangene Jahr, versehen mit Datum, Beschreibung, Kategorie und Betrag. Wir haben die Eintragungen sorgfältig geprüft. So sind wir sicher, dass sich keine weiteren Fehler eingeschlichen haben. Alle Eintragungen sind nach dem Datum geordnet.</p>
+
+
+
+<p>Willi benötigt nun eine Übersicht über den Gesamtüberschuss am Ende jeden Monats. Das werden wir in dieser Übung in Angriff nehmen und in das Arbeitsblatt <font color="#5500EB">Monatsübersicht</font> eintragen. Um dir etwas Arbeit abzunehmen, sind einige Spalten im Arbeitsblatt <font color="#5500EB">Monatsübersicht</font> bereits vorausgefüllt. Welche genau das sind, schauen wir uns gleich an.</p>
+
+
+
+<p>Unser Ziel ist es, die monatlichen Gesamtüberschüsse, also die Einnahmen abzüglich der Ausgaben, übersichtlich im Arbeitsblatt <font color="#5500EB">Monatsübersicht</font> darzustellen. Dazu haben wir die Spalte <font color="#5500EB">Überschuss</font> angelegt. Wir werden sie gleich befüllen. Bevor wir loslegen, wollen wir uns aber erstmal damit vertraut machen, wie Berechnungen in Excel funktionieren.</p>
+
+
+
+<p>Um eine Berechnung durchzuführen, können wir Funktionen oder Operatoren nutzen. Das Rechnen mit Operatoren schauen wir uns im folgenden Abschnitt an. Später kommen wir dann auf Funktionen zu sprechen.</p>
+
+
+
+<h2>Einfache Berechnungen mit Operatoren</h2>
+
+
+
+<p>Die monatlichen Gesamtüberschüsse berechnen wir, indem wir alle Einträge der Spalte <font color="#5500EB">Betrag</font> des jeweiligen Monats aus dem Arbeitsblatt <font color="#5500EB">Kontobewegungen</font> aufsummieren.</p>
+
+
+
+<p>Ausgaben gehen mit negativem Vorzeichen in die Berechnung ein, Einnahmen mit positivem. Im Arbeitsblatt <font color="#5500EB">Kontobewegungen</font> sind alle Einträge bereits mit dem richtigen Vorzeichen versehen. Wenn wir die Summe mit dem Taschenrechner lösen würden, könnten wir alle Zahlen einfach addieren. Beispielsweise ergäbe sich für die ersten beiden Einträge diese Berechnung:</p>
+
+
+
+<pre class="wp-block-code"><code>(-11,50) + (-50,00) = -61,50</code></pre>
+
+
+
+<p>Genauso können wir in Excel auch vorgehen. Wir nutzen den Plusoperator (+). Dazu geben wir in die Zelle, in der wir die Summe sehen möchten, zunächst ein Gleichheitszeichen (=) ein. Das Gleichheitszeichen läutet in Excel eine sogenannte <i>Formel</i> ein. Excel weiß dann, dass es eine Berechnung durchführen wird. Der Begriff <i>Formel</i> bezeichnet den gesamten Ausdruck in der Zelle, inklusive des Gleichheitszeichens.</p>
+
+
+
+<p>Anschließend geben wir den ersten Summanden ein, gefolgt vom Plusoperator und dem zweiten Summanden. Ist der zweite Summand negativ, können wir eine Klammer nutzen, müssen es aber nicht tun. Auf diese Weise können wir beliebig viele Summanden miteinander addieren.</p>
+
+
+    <div class="sf_assignment aufgabe">
+                            <span id="Aufgabe 1" class="lecture-anchor"></span>
+            <h5>Aufgabe 1 <a style="color: #5500EB;" class="Aufgabe-link" href="#Aufgabe 1">&para;</a></h5>
+            <blockquote>
+                <p>Berechne im Arbeitsblatt <font color="#5500EB">Kontobewegungen</font> die Summe der ersten vier Ausgaben des Jahres 2023 in Zelle <font color="#5500EB">F2</font>: -11,50, -50,00, -49,00, -113,40. Nutze hierzu den Plusoperator.</p>            </blockquote>
+        </div>
+    
+
+
+    <div class="sf_box hint">
+    <details>
+        <summary>Tipp</summary>        <p>Um die negativen Beträge zu addieren, musst du nicht notwendigerweise eine Klammer um die Beträge setzen, kannst das aber tun.</p>    </details>
+    </div>
+    
+
+
+        <form action="#" id="quiz-400089" class="quiz quiz-form " method="POST">
+            <input type="hidden" name="quiz_id" value="400089">
+                            <fieldset id="fieldsets-400089" class="question">
+                    <div class="question quiz-p"><p>Wie hoch ist die Summe der ersten vier Ausgaben des Jahres 2023? </p></div>
+                                                <div class="answer">
+                                <input type="radio" class="answer answer-400089"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][0]"
+                                       value="0">
+                                <label for="questions[0][answer][0]"></label>
+                                <div><p>0</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400089"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][1]"
+                                       value="1">
+                                <label for="questions[0][answer][1]"></label>
+                                <div><p>-223,90</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400089"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][2]"
+                                       value="2">
+                                <label for="questions[0][answer][2]"></label>
+                                <div><p>-10,90</p></div>
+                            </div>
+                                                            </fieldset>
+                            <input id="submit" type="submit" value="Senden">
+        </form>
+        
+
+
+
+<p>In der Zelle <font color="#5500EB">F2</font> sollte die Summe erscheinen. Wählen wir sie mit der Maus aus, so wird in der Bearbeitungsleiste oben die gesamte Formel angezeigt:</p>
+
+
+
+<pre class="wp-block-code"><code>=-11,5+-50+-49+-113,4</code></pre>
+
+
+
+<p>Wir haben Excel durch die Verwendung des Gleichheitszeichens mitgeteilt, dass nun eine Berechnung folgt. Probiere in der folgenden Aufgabe einmal aus, was passiert, wenn wir das Gleichheitszeichen weglassen.</p>
+
+
+    <div class="sf_assignment aufgabe">
+                            <span id="Aufgabe 2" class="lecture-anchor"></span>
+            <h5>Aufgabe 2 <a style="color: #5500EB;" class="Aufgabe-link" href="#Aufgabe 2">&para;</a></h5>
+            <blockquote>
+                <p>Probiere aus, was passiert, wenn du das Gleichheitszeichen weglässt. Gib im Arbeitsblatt <font color="#5500EB">Kontobewegungen</font> in Zelle <font color="#5500EB">F3</font> die Summe der ersten vier Ausgaben ein. Nutze den Plusoperator, aber <strong>lasse das Gleichheitszeichen weg.</strong></p>            </blockquote>
+        </div>
+    
+
+
+        <form action="#" id="quiz-400090" class="quiz quiz-form " method="POST">
+            <input type="hidden" name="quiz_id" value="400090">
+                            <fieldset id="fieldsets-400090" class="question">
+                    <div class="question quiz-p"><p>Welcher Wert erscheint in Zelle <font color="#5500EB">F3</font>?</p></div>
+                                                <div class="answer">
+                                <input type="radio" class="answer answer-400090"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][0]"
+                                       value="0">
+                                <label for="questions[0][answer][0]"></label>
+                                <div><p>-11,5+-50+-49+-113,4</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400090"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][1]"
+                                       value="1">
+                                <label for="questions[0][answer][1]"></label>
+                                <div><p>-223,90</p></div>
+                            </div>
+                                                            </fieldset>
+                            <input id="submit" type="submit" value="Senden">
+        </form>
+        
+
+
+
+<p>Das Ergebnis ist überraschend. Hatten wir nicht gerade festgestellt, dass das Gleichheitszeichen eine Formel einleitet? Sollte das Weglassen dann nicht im Umkehrschluss dazu führen, dass keine Berechnung durchgeführt wird?</p>
+
+
+
+<p>Schauen wir uns noch einmal die Bearbeitungsleiste an, sehen wir, dass Excel das Gleichheitszeichen selbstständig eingefügt hat. Das Beispiel zeigt uns, dass Excel dazu tendiert, unsere Eingaben zu interpretieren. In unserem Fall interpretiert Excel das führende Minuszeichen als Aufforderung zur Berechnung. Manchmal wollen wir das aber gar nicht. Dann müssen wir das Excel aktiv mitteilen. Das können wir tun, indem wir die Zelle als Text formatieren und erst anschließend die Zelle befüllen. Alternativ können wir der Eingabe ein Apostroph (&#8216;) voranstellen. Hier würden wir dann den Ausdruck <code>'-11,50-50,00</code> schreiben.</p>
+
+
+    <div class="sf_box merke">
+        <p><strong>Merke:</strong> Häufig versucht Excel unsere Eingaben zu interpretieren. Fällt die Interpretation nicht in unserem Sinne aus, so müssen wir Excel aktiv von einer solchen Interpretation abhalten.    </div>
+    
+
+
+
+<p>Wenn wir Zahlen manuell eingeben, schleichen sich schnell Fehler ein. Deshalb nutzen wir in Excel sogenannte <i>Zellbezüge</i>. Ihre Verwendung spart Tipparbeit und ist weniger fehleranfällig. Außerdem aktualisiert sich das Ergebnis der Berechnung automatisch, wenn sich Werte in Zellen ändern, auf die verwiesen wird. In dem folgenden Video schauen wir uns an, wie Zellbezüge funktionieren.</p>
+
+
+<div id="player_kDYLF82vNz7hgTjq" class="3q-video" data-id="3168809c-c603-4b3b-baa0-42635af6cb8c" data-cc="" data-autoplay="false"></div>
+
+
+
+<p>Fassen wir zusammen. Um eine Berechnung mit Zellbezug zu erstellen, geben wir erst das Gleichheitszeichen ein und wählen dann mit der Maus die Zelle aus, in der der erste Summand steht, fügen wieder den Plusoperator ein und wählen die Zelle mit dem zweiten Summanden aus.</p>
+
+
+    <div class="sf_assignment aufgabe">
+                            <span id="Aufgabe 3" class="lecture-anchor"></span>
+            <h5>Aufgabe 3 <a style="color: #5500EB;" class="Aufgabe-link" href="#Aufgabe 3">&para;</a></h5>
+            <blockquote>
+                <p> Berechne in Zelle <font color="#5500EB">F4</font> im Arbeitsblatt <font color="#5500EB">Kontobewegungen</font> die Summe der Ausgaben für Lebensmittel im Januar. Nutze den Plusoperator und Zellbezüge.</p>            </blockquote>
+        </div>
+    
+
+
+        <form action="#" id="quiz-400094" class="quiz quiz-form " method="POST">
+            <input type="hidden" name="quiz_id" value="400094">
+                            <fieldset id="fieldsets-400094" class="question">
+                    <div class="question quiz-p"><p>Welche Summe ergibt sich in <font color="#5500EB">F4</font>? </p></div>
+                                                <div class="answer">
+                                <input type="radio" class="answer answer-400094"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][0]"
+                                       value="0">
+                                <label for="questions[0][answer][0]"></label>
+                                <div><p>-305,89</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400094"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][1]"
+                                       value="1">
+                                <label for="questions[0][answer][1]"></label>
+                                <div><p>-57,50</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400094"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][2]"
+                                       value="2">
+                                <label for="questions[0][answer][2]"></label>
+                                <div><p>0</p></div>
+                            </div>
+                                                            </fieldset>
+                            <input id="submit" type="submit" value="Senden">
+        </form>
+        
+
+
+
+<p>In der Zelle <font color="#5500EB">F4</font> erscheint die berechnete Summe. In der Bearbeitungsleiste oben wird nun die Formel mit Zellbezügen angezeigt. So können wir sehen, wie ein Wert zustande gekommen ist:</p>
+
+
+
+<pre class="wp-block-code"><code>=D9+D10+D12</code></pre>
+
+
+
+<p>Neben dem Plusoperator hat Excel noch weitere eingebaute arithmetische Operatoren. Hier ist eine Übersicht.</p>
+
+
+
+<a class="lightbox" href="/training-content/excel-basics/images/excelbasics_e02_image01.png"> <img src="/training-content/excel-basics/images/excelbasics_e02_image01.png" height="270"></a>
+
+
+
+<p class="has-small-font-size"><strong>Abbildung 1</strong>: Operatoren</p>
+
+
+
+<p>Operatoren lassen sich in Excel beliebig miteinander kombinieren. Excel beachtet die Regel <i>Punktrechnung vor Strichrechnung</i>. Wollen wir in unserer Berechnung hiervon abweichen, müssen wir mit Klammern arbeiten. So ist das Ergebnis der Eingabe <code>=1+6*2</code> der Wert &#8220;13&#8221;, während <code>=(1+6)*2</code> den Wert &#8220;14&#8221; ergibt. &nbsp;</p>
+
+
+
+<h2>Rechnen mit Funktionen</h2>
+
+
+
+<p>Statt den Plusoperator zu nutzen, können wir Summen auch mithilfe der Funktion <code>SUMME()</code> berechnen. Schauen wir uns in dem folgenden Video an, wie das geht.</p>
+
+
+<div id="player_ZXKRYrNkq9myG4ML" class="3q-video" data-id="80929222-dae6-4fe5-a50e-a49482470c76" data-cc="" data-autoplay="false"></div>
+
+
+
+<p>Fassen wir zusammen. Funktionen sind kleine Programme, die vordefinierte Operationen ausführen. Funktionen haben ein oder mehrere Argumente, also Eingabedaten, die vom Nutzenden angegeben werden müssen oder können.</p>
+
+
+
+<ul><li><strong>Syntax:</strong> Um die Berechnung zu starten, wird einer Funktion ein Gleichheitszeichen vorangestellt. Mehrere Eingaben werden mit dem Semikolon (;) getrennt. Die Gesamtheit der Eingaben wird mit runden Klammern umfasst.</li><li><strong>Funktionsassistenz:</strong>
+<ul>
+<li>Excels Autovervollständigen-Funktionalität macht Vorschläge für Formeln. Für die jeweilige Auswahl wird in einem kleinen Kasten die Funktionsweise einer Funktion beschrieben.</li>
+<li>Excel gibt auch Hinweise auf den Typ der Argumente. Bei der Funktion <code>SUMME()</code> sieht der Hinweis so aus:<pre class="wp-block-code"><code>SUMME(<strong>Zahl1</strong>; [Zahl2]; ...)</code></pre> Das bedeutet, die Eingabe kann durch einen Zellbezug erfolgen. <em>Zahl</em> bedeutet, dass eine Zahl erwartet wird. Das kann auch ein Datum sein. <em>Text</em> hingegen würde bedeuten, dass ein Text erwartet wird. <em>Wert</em> ist allgemeiner und legt sich nicht auf eine bestimmte Art von Eingabe fest. Ist eine Eingabe optional, wird das durch eine eckige Klammer angezeigt. Auf verpflichtende Eingaben wird ohne Klammer hingewiesen.</li>
+</ul>
+</li></ul>
+
+
+
+<p>Übrigens: Genauso wie wir Operatoren innerhalb einer Formel miteinander verknüpfen können, können wir auch Funktionen mit Operatoren oder weiteren Funktionen miteinander verknüpfen. So könnten wir beispielsweise in eine Zelle die folgende Formel schreiben:</p>
+
+
+
+<pre class="wp-block-code"><code>=SUMME(D3;D8) – D14</code></pre>
+
+
+
+<p>Excel hält eine Menge Funktionen bereit, die Funktion <code>SUMME()</code> ist nur ein Beispiel. Wir werden uns gleich noch andere Funktionen anschauen. Zunächst aber werden wir anhand der Funktion <code>SUMME()</code> üben und noch weitere Funktionalitäten kennenlernen.</p>
+
+
+    <div class="sf_assignment aufgabe">
+                            <span id="Aufgabe 4" class="lecture-anchor"></span>
+            <h5>Aufgabe 4 <a style="color: #5500EB;" class="Aufgabe-link" href="#Aufgabe 4">&para;</a></h5>
+            <blockquote>
+                <p>Trage in Zelle <font color="#5500EB">F5</font> die Summe der Einnahmen des vergangenen Jahres ein. Nutze dazu die Funktion <code>SUMME()</code>. Du musst gezielt nur die Einnahmen aus dem Arbeitsblatt <font color="#5500EB">Kontobewegungen</font> auswählen. </p>            </blockquote>
+        </div>
+    
+
+
+    <div class="sf_box hint">
+    <details>
+        <summary>Tipp</summary>        <p>Die Frage bezieht sich nur auf die Einnahmen, nicht auf den gesamten Überschuss. Insgesamt gab es 12 Einnahmen, also eine pro Monat. </p>    </details>
+    </div>
+    
+
+
+        <form action="#" id="quiz-400095" class="quiz quiz-form " method="POST">
+            <input type="hidden" name="quiz_id" value="400095">
+                            <fieldset id="fieldsets-400095" class="question">
+                    <div class="question quiz-p"><p>Wie hoch sind die Gesamteinnahmen im Jahr? </p></div>
+                                                <div class="answer">
+                                <input type="radio" class="answer answer-400095"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][0]"
+                                       value="0">
+                                <label for="questions[0][answer][0]"></label>
+                                <div><p>12.504,89</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400095"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][1]"
+                                       value="1">
+                                <label for="questions[0][answer][1]"></label>
+                                <div><p>32.664,43</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400095"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][2]"
+                                       value="2">
+                                <label for="questions[0][answer][2]"></label>
+                                <div><p>-32.664,43</p></div>
+                            </div>
+                                                            </fieldset>
+                            <input id="submit" type="submit" value="Senden">
+        </form>
+        
+
+
+
+<p>Tippen wir alle Einträge mit Semikolon getrennt in die Funktion <code>SUMME()</code> ein, haben wir schnell eine Menge Tipp- bzw. Klickarbeit. Stehen die benötigten Eingaben für eine Summe in benachbarten Zellen, lassen sich ganz einfach auch ganze Zellbereiche markieren. Wie das geht, schauen wir uns jetzt an. &nbsp;</p>
+
+
+<div id="player_kZFNc9JXnvgdBrTx" class="3q-video" data-id="dc088581-a557-40ff-8e4c-d51fef66ab04" data-cc="" data-autoplay="false"></div>
+
+
+
+<p>Fassen wir zusammen. Statt in einer Funktion mit mehreren Argumenten auf einzelne neben- oder untereinanderliegende Zellen Bezug zu nehmen und sie durch ein Semikolon zu trennen, ist es auch möglich und oft schneller, ganze Bereiche auszuwählen.</p>
+
+
+
+<ul><li><strong>Bereich auswählen:</strong> Nach Öffnen der runden Funktionsklammer wird der Bereich mit gehaltener linker Maustaste markiert. Mit dem Shortcut <strong>Strg+Shift+Pfeil-nach-unten</strong> wird sofort der gesamte Bereich ausgewählt – das heißt bis (ausschließlich) zur nächsten Zelle ohne Eintrag. Nicht zusammenhängende Bereiche lassen sich durch Drücken der <strong>Strg-Taste</strong> oder durch ein trennendes Semikolon markieren.</li><li><strong>Anzeige:</strong> In der Funktion erscheint der ausgewählte Bereich als <code>ERSTEZELLE:LETZTEZELLE</code>, also beispielsweise <code>D2:D18</code>. Befindet sich der Bereich in einem anderen Arbeitsblatt als die Formel, dann wird dem Zellbereich <code>Arbeitsblatt!</code> vorangestellt, also beispielsweise <code>Kontobewegungen!D2:D18</code>. Daraus ergibt sich folgende Formel: <pre class="wp-block-code"><code>=SUMME(Kontobewegungen!D2:D18)</code></pre></li></ul>
+
+
+
+<p>Wir können uns nun endlich der eigentlichen Aufgabe widmen: Wir möchten im Arbeitsblatt <font color="#5500EB">Monatsübersicht</font> in der Spalte <font color="#5500EB">Überschuss</font> die Überschüsse aller Monate des letzten Jahres eintragen.</p>
+
+
+    <div class="sf_assignment aufgabe">
+                            <span id="Aufgabe 5" class="lecture-anchor"></span>
+            <h5>Aufgabe 5 <a style="color: #5500EB;" class="Aufgabe-link" href="#Aufgabe 5">&para;</a></h5>
+            <blockquote>
+                <p>Im Arbeitsblatt <font color="#5500EB">Monatsübersicht</font> sind die Überschüsse der ersten sechs Monate eingetragen. Vervollständige die Spalte Überschuss für die übrigen Monate. Trage auch die Monatsnamen ein. Formatiere die Einträge. </p>            </blockquote>
+        </div>
+    
+
+
+    <div class="sf_box hint">
+    <details>
+        <summary>Tipp</summary>        <p> Die Monatsnamen lassen sich vervollständigen, indem die Zelle mit Wert „Juni“ (Zelle <font color="#5500EB">F7</font>) markiert und am rechten unteren Rand nach unten gezogen wird. Excel erkennt die Folge automatisch. </p>    </details>
+    </div>
+    
+
+
+        <form action="#" id="quiz-400096" class="quiz quiz-form " method="POST">
+            <input type="hidden" name="quiz_id" value="400096">
+                            <fieldset id="fieldsets-400096" class="question">
+                    <div class="question quiz-p"><p>Welcher Monat hat den höchsten Gesamtüberschuss?</p></div>
+                                                <div class="answer">
+                                <input type="radio" class="answer answer-400096"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][0]"
+                                       value="0">
+                                <label for="questions[0][answer][0]"></label>
+                                <div><p>September</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400096"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][1]"
+                                       value="1">
+                                <label for="questions[0][answer][1]"></label>
+                                <div><p>Oktober</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400096"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][2]"
+                                       value="2">
+                                <label for="questions[0][answer][2]"></label>
+                                <div><p>November</p></div>
+                            </div>
+                                                            </fieldset>
+                            <input id="submit" type="submit" value="Senden">
+        </form>
+        
+
+
+
+<p>Übrigens musst du Funktionsnamen nicht auswendig lernen! Hast du eine Idee, wie eine Funktion heißen könnte, dann helfen dir die Vorschläge in der Autovervollständigen-Funktionalität oft weiter. Die Funktionsnamen sind meistens intuitiv. Wenn du die Funktion dennoch nicht findest, nutze eine Suchmaschine; dort wirst du in der Regel schnell fündig. Microsoft beschreibt in der Dokumentation, wie man die Funktionen nutzt. </p>
+
+
+
+<p>Schauen wir uns noch ein paar andere Funktionen an. Weil die Überschüsse über die Monate hinweg doch recht stark schwanken, könnte Willi beispielsweise auf die Idee kommen, sich anschauen zu wollen, wie viele Posten in den Monaten jeweils vorhanden sind. Kannst du eine passende Funktion finden?</p>
+
+
+    <div class="sf_assignment aufgabe">
+                            <span id="Aufgabe 6" class="lecture-anchor"></span>
+            <h5>Aufgabe 6 <a style="color: #5500EB;" class="Aufgabe-link" href="#Aufgabe 6">&para;</a></h5>
+            <blockquote>
+                <p>Befülle im Arbeitsblatt <font color="#5500EB">Monatsübersicht</font> die Spalte <font color="#5500EB">Anzahl</font> für die Monate Februar und Oktober, indem du mithilfe einer geeigneten Funktion die Anzahl der Posten (Ein- und Ausgaben) im jeweiligen Monat berechnest. Formatiere gegebenenfalls die Einträge. </p>            </blockquote>
+        </div>
+    
+
+
+    <div class="sf_box hint">
+    <details>
+        <summary>Tipp</summary>        <p> Du kannst die Funktion <code>ANZAHL()</code> nutzen. </p>    </details>
+    </div>
+    
+
+
+        <form action="#" id="quiz-400098" class="quiz quiz-form " method="POST">
+            <input type="hidden" name="quiz_id" value="400098">
+                            <fieldset id="fieldsets-400098" class="question">
+                    <div class="question quiz-p"><p>Wie viele Posten mehr gab es im Oktober als im Februar? </p></div>
+                                                <div class="answer">
+                                <input type="radio" class="answer answer-400098"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][0]"
+                                       value="0">
+                                <label for="questions[0][answer][0]"></label>
+                                <div><p>2</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400098"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][1]"
+                                       value="1">
+                                <label for="questions[0][answer][1]"></label>
+                                <div><p>3</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400098"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][2]"
+                                       value="2">
+                                <label for="questions[0][answer][2]"></label>
+                                <div><p>4</p></div>
+                            </div>
+                                                            </fieldset>
+                            <input id="submit" type="submit" value="Senden">
+        </form>
+        
+
+
+
+<p>Willi hat den Eindruck, dass die Anzahl der Posten tendenziell größer ist, je kleiner der Monatsüberschuss.</p>
+
+
+
+<p>Als Nächstes möchte er eine Übersicht über die jeweils höchste einzelne Ausgabe haben. Finde die passende Funktion.</p>
+
+
+    <div class="sf_assignment aufgabe">
+                            <span id="Aufgabe 7" class="lecture-anchor"></span>
+            <h5>Aufgabe 7 <a style="color: #5500EB;" class="Aufgabe-link" href="#Aufgabe 7">&para;</a></h5>
+            <blockquote>
+                <p> Liste im Arbeitsblatt <font color="#5500EB">Monatsübersicht</font> in der Spalte <font color="#5500EB">höchste_Ausgaben</font> für die Monate Februar und Oktober die jeweils höchste Einzelausgabe. Nutze dazu eine Funktion und formatiere gegebenenfalls die Einträge.</p>            </blockquote>
+        </div>
+    
+
+
+    <div class="sf_box hint">
+    <details>
+        <summary>Tipp</summary>        <p> Die Ausgaben sind mit negativem Vorzeichen versehen. </p>    </details>
+    </div>
+    
+
+
+        <form action="#" id="quiz-400099" class="quiz quiz-form " method="POST">
+            <input type="hidden" name="quiz_id" value="400099">
+                            <fieldset id="fieldsets-400099" class="question">
+                    <div class="question quiz-p"><p>Welche Funktion eignet sich hierfür? </p></div>
+                                                <div class="answer">
+                                <input type="radio" class="answer answer-400099"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][0]"
+                                       value="0">
+                                <label for="questions[0][answer][0]"></label>
+                                <div><p>MAX()</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400099"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][1]"
+                                       value="1">
+                                <label for="questions[0][answer][1]"></label>
+                                <div><p>MIN()</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400099"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][2]"
+                                       value="2">
+                                <label for="questions[0][answer][2]"></label>
+                                <div><p>MITTELWERT()</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400099"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][3]"
+                                       value="3">
+                                <label for="questions[0][answer][3]"></label>
+                                <div><p>VRUNDEN()</p></div>
+                            </div>
+                                                            </fieldset>
+                            <input id="submit" type="submit" value="Senden">
+        </form>
+        
+
+
+
+<p>Jetzt hat Willi einen guten Überblick über seine Finanzen. Er schaut sich die höchsten Ausgaben nochmal an und stellt fest, dass am Ende der Monate, in denen er Urlaub gemacht hatte, weniger Geld übriggeblieben ist. &nbsp;</p>
+
+
+
+<p>Um seine künftigen Ausgaben für die Altersvorsorge besser planen zu können, möchte Willi als Letztes noch wissen, wie viel Geld ihm am Ende eines Monats durchschnittlich bleibt.</p>
+
+
+    <div class="sf_assignment aufgabe">
+                            <span id="Aufgabe 8" class="lecture-anchor"></span>
+            <h5>Aufgabe 8 <a style="color: #5500EB;" class="Aufgabe-link" href="#Aufgabe 8">&para;</a></h5>
+            <blockquote>
+                <p> Trage im Arbeitsblatt <font color="#5500EB">Monatsübersicht</font> in Zelle <font color="#5500EB">B15</font> den durchschnittlichen monatlichen Überschuss ein. Nutze dafür wieder eine Funktion. Formatiere gegebenenfalls den Eintrag. </p>            </blockquote>
+        </div>
+    
+
+
+    <div class="sf_box hint">
+    <details>
+        <summary>Tipp</summary>        <p> Die Funktion <code>MITTELWERT()</code> eignet sich hierfür.</p>    </details>
+    </div>
+    
+
+
+        <form action="#" id="quiz-400100" class="quiz quiz-form " method="POST">
+            <input type="hidden" name="quiz_id" value="400100">
+                            <fieldset id="fieldsets-400100" class="question">
+                    <div class="question quiz-p"><p>Wie hoch ist der durchschnittliche monatliche Überschuss? </p></div>
+                                                <div class="answer">
+                                <input type="radio" class="answer answer-400100"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][0]"
+                                       value="0">
+                                <label for="questions[0][answer][0]"></label>
+                                <div><p>1905,57</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400100"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][1]"
+                                       value="1">
+                                <label for="questions[0][answer][1]"></label>
+                                <div><p>0</p></div>
+                            </div>
+                                                    <div class="answer">
+                                <input type="radio" class="answer answer-400100"
+                                       name="questions[0][answer]"
+                                       id="questions[0][answer][2]"
+                                       value="2">
+                                <label for="questions[0][answer][2]"></label>
+                                <div><p>32.664,43</p></div>
+                            </div>
+                                                            </fieldset>
+                            <input id="submit" type="submit" value="Senden">
+        </form>
+        
+
+
+    <div class="sf_box glueckwunsch">
+        <p><strong>Glückwunsch!</strong> Du hast Willi dabei geholfen, seine monatlichen Ein- und Ausgaben übersichtlich zusammenzufassen. Dazu hast du Operatoren und Funktionen genutzt.
+</p>    </div>
+    
+
+
+    <div class="sf_box merke">
+        <p><strong>Merke:</strong></p>
+<ul>
+<li>Du kannst Excel auch wie einen großen Taschenrechner benutzen. Um lange Rechnungen zu vermeiden, gibt es viele <strong>eingebaute Funktionen</strong>. In dieser Übung hast du folgende Funktionen kennengelernt:</li>
+<ul>
+<li><code>SUMME()</code>: Summiert Zahlen in einem Zellbereich.</li>
+<li><code>ANZAHL()</code>: Berechnet, wie viele Zahlen ein Zellbereich enthält.</li>
+<li><code>MAX()</code> und <code>MIN()</code>: Gibt den größten bzw. kleinsten Wert in einem Zellbereich zurück.</li>
+<li><code>MITTELWERT()</code>: Gibt den Mittelwert (arithmetisches Mittel) eines Zellbereichs mit Zahlen zurück.</li>
+</ul>
+<li>Um Tipparbeit zu sparen, nutze <strong>Zellbezüge</strong> innerhalb von Funktionen und markiere ganze Bereiche (z. B. eine Spalte), auf die sich eine Funktion beziehen soll.</li>
+<li>Um mit Excel zu rechnen, musst du in einer Zelle eine <strong>Formel</strong> mit <code>=</code> beginnen. In einigen Fällen werden Eingaben trotzdem von Excel als Formel interpretiert, z. B. wenn diese mit einem Operator wie einem Minuszeichen beginnen. Um das zu verhindern, kannst du Zelleingaben mit einem einfachen Anführungszeichen <code>'</code> beginnen.</li>
+</ul>    </div>
+    
+        <!-- START: next lecture -->
+        <div class="next-lecture-btn-body full-width">
+            <a onclick="interactionTracking('Training', 'Navigate to Next Lecture','Nächste Lektion')" class="next-lecture-btn" href="https://datalab.stackfuel.com/training/excel-basics-2/excel-basics/zellbezuege/">Nächste Lektion</a>        </div>
+        <!-- END: next lecture -->
+        </div>
+    </div>
+    <!-- END: lecture content -->
+
+</div></div></div>
+<!--END: main-content -->
+<div class='mwai-chatbot-container' data-params='{&quot;aiName&quot;:&quot;Stacky&quot;,&quot;userName&quot;:&quot;Du:&quot;,&quot;guestName&quot;:&quot;Guest:&quot;,&quot;textSend&quot;:&quot;Senden&quot;,&quot;textClear&quot;:&quot;Zur\u00fccksetzen&quot;,&quot;textInputPlaceholder&quot;:&quot;Deine Frage&quot;,&quot;textInputMaxLength&quot;:512,&quot;textCompliance&quot;:&quot;Deine Anfragen k\u00f6nnen durch unser Team eingesehen werden, um Missbrauch zu verhindern.&quot;,&quot;startSentence&quot;:&quot;Hallo ich bin Stacky, deine KI-basierte Unterst\u00fctzung f\u00fcr Fragen rund um Coding, Data Analytics und Data Science. Aktuell beantworte ich nur inhaltliche Fragen zu diesem Thema. Insbesondere f\u00fcr organisatorische Fragen wende dich bitte weiterhin an unsere menschlichen Mitarbeitenden unter support@stackfuel.com. Bevor du mit mir interagierst, lies bitte den &lt;a href=\&quot;https:\/\/stackfuel.com\/de\/legal\/data-lab\/datenschutz\/mentoringbot\/\&quot; target=\&quot;_blank\&quot;&gt; Datenschutzhinweis &lt;\/a&gt;.&quot;,&quot;localMemory&quot;:1,&quot;themeId&quot;:&quot;chatgpt&quot;,&quot;window&quot;:1,&quot;icon&quot;:&quot;https:\/\/datalab.stackfuel.com\/app\/uploads\/2024\/04\/image-22.png&quot;,&quot;iconText&quot;:&quot;&quot;,&quot;iconAlt&quot;:&quot;AI Chatbot Avatar&quot;,&quot;iconPosition&quot;:&quot;bottom-right&quot;,&quot;fullscreen&quot;:1,&quot;copyButton&quot;:&quot;&quot;}' data-system='{&quot;botId&quot;:&quot;default&quot;,&quot;customId&quot;:null,&quot;userData&quot;:{&quot;FIRST_NAME&quot;:&quot;Chandra Vamshi&quot;,&quot;LAST_NAME&quot;:&quot;Dasyam&quot;,&quot;USER_LOGIN&quot;:&quot;chandra_vamshi-dasyam&quot;,&quot;DISPLAY_NAME&quot;:&quot;Chandra Vamshi Dasyam&quot;,&quot;AVATAR_URL&quot;:&quot;https:\/\/secure.gravatar.com\/avatar\/222dda95a795941a4445af60cd885b6b?s=96&amp;d=mm&amp;r=g&quot;},&quot;sessionId&quot;:&quot;N\/A&quot;,&quot;restNonce&quot;:&quot;5f7cb06cd1&quot;,&quot;contextId&quot;:446979,&quot;pluginUrl&quot;:&quot;https:\/\/datalab.stackfuel.com\/app\/plugins\/ai-engine\/&quot;,&quot;restUrl&quot;:&quot;https:\/\/datalab.stackfuel.com\/wp-json&quot;,&quot;debugMode&quot;:true,&quot;typewriter&quot;:false,&quot;speech_recognition&quot;:false,&quot;speech_synthesis&quot;:false,&quot;stream&quot;:false}' data-theme='{&quot;type&quot;:&quot;internal&quot;,&quot;name&quot;:&quot;ChatGPT&quot;,&quot;themeId&quot;:&quot;chatgpt&quot;,&quot;settings&quot;:[],&quot;style&quot;:&quot;&quot;}'></div><!-- Footer -->
+<footer class="site-footer">
+    <div class="row">
+        <div class="col-md-10">
+            <p class="text-center text-md-left">
+                Copyright © 2025 StackFuel. Alle Rechte vorbehalten.            </p>
+        </div>
+    </div>
+</footer>
+<!-- END Footer -->
+</main>
+<!-- END Main container -->
+
+<script id="global-tracking" type="text/javascript">let trackingContext = {"trainingName":"Excel Basics","lectureName":"Funktionen und Formeln in Excel"}</script>
+<div id="um_upload_single" style="display:none;"></div>
+
+<div id="um_view_photo" style="display:none;">
+	<a href="javascript:void(0);" data-action="um_remove_modal" class="um-modal-close" aria-label="Modale Ansicht des Bildes schließen">
+		<i class="um-faicon-times"></i>
+	</a>
+
+	<div class="um-modal-body photo">
+		<div class="um-modal-photo"></div>
+	</div>
+</div>
+			<script>
+				function convert_to_url(obj) {
+					return Object
+					.keys(obj)
+					.map(k => `${encodeURIComponent(k)}=${encodeURIComponent(obj[k])}`)
+					.join('&');
+				}
+
+				function pass_to_backend() {
+					if(window.location.hash) {
+						var hash = window.location.hash;
+						var elements = {};
+						hash.split("#")[1].split("&").forEach(element => {
+							var vars = element.split("=");
+							elements[vars[0]] = vars[1];
+						});
+						if(("access_token" in elements) || ("id_token" in elements) || ("token" in elements)) {
+							if(window.location.href.indexOf("?") !== -1) {
+								window.location = (window.location.href.split("?")[0] + window.location.hash).split('#')[0] + "?" + convert_to_url(elements);
+							} else {
+								window.location = window.location.href.split('#')[0] + "?" + convert_to_url(elements);
+							}
+						}
+					}
+				}
+
+				pass_to_backend();
+			</script>
+
+		                <div id="content_feedback" data-type="lecture">
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <div class="close"></div>
+                        <h2>Wie zufrieden bist du mit dieser Lektion?</h2>
+                        <div class="stars">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <h2>Möchtest du uns noch etwas mitteilen?</h2>
+                        <textarea placeholder="Schreibe uns bitte hier dein Feedback..." maxlength="1024"></textarea>
+                        <p class="disclaimer">Mit diesem Feedback hilfst du uns langfristig dabei unser Angebot zu verbessern. Für kurzfristige Anfragen wende dich bitte an den <a href="mailto:support@stackfuel.com">Support.</a></p>
+                        <button>Senden</button>
+                    </div>
+                </div>
+                                <div id="training_not_completed_popup" class="training-state-popup">
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <h2>Du hast nicht abgeschlossene Lektionen in diesem Kapitel. Bevor du fortfährst, überprüfe bitte welche Lektionen du noch nicht bearbeitet hast.</h2>
+                        <div class="button-popup-single">
+                            <button class="ok-btn">OK</button>
+                        </div>
+                    </div>
+                </div>
+                                <div id="training_completed_popup" class="training-state-popup">
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <h2>Herzlichen Glückwunsch, du hast dieses Training erfolgreich abgeschlossen &#127881;</h2>
+                        <div class="button-popup-set">
+                            <a class="btn continue training-overview-btn" href="/trainings/">Zur Trainings-Übersicht</a>
+                            <button class="ok-btn">OK</button>
+                        </div>
+                    </div>
+                </div>
+                                <div id="lectures_completed_popup" class="training-state-popup">
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <h2>Weitere Lektionen werden in Kürze freigeschaltet.</h2>
+                        <div class="button-popup-set">
+                            <a class="training-overview-btn" href="/trainings/">Zur Trainings-Übersicht</a>
+                            <button class="ok-btn">OK</button>
+                        </div>
+                    </div>
+                </div>
+                <script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/underscore.min.js?ver=1.13.1' id='underscore-js'></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/wp-util.min.js?ver=5.9.3' id='wp-util-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/dist/hooks.min.js?ver=1e58c8c5a32b2e97491080c5b10dc71c' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/dist/i18n.min.js?ver=30fcecb428a0e8383d3776bcdd3a7834' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.js?ver=1.0.0a' id='um_tipsy-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.js?ver=1.0' id='um_confirm-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/pickadate/picker.min.js?ver=3.6.2' id='um_datetime-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/pickadate/picker.date.min.js?ver=3.6.2' id='um_datetime_date-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/pickadate/picker.time.min.js?ver=3.6.2' id='um_datetime_time-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/pickadate/translations/de_DE.min.js?ver=3.6.2' id='um_datetime_locale-js'></script>
+<script type='text/javascript' id='um_common-js-extra'>
+/* <![CDATA[ */
+var um_common_variables = {"locale":"de_DE"};
+var um_common_variables = {"locale":"de_DE"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/js/common.min.js?ver=2.8.6' id='um_common-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/cropper/cropper.min.js?ver=1.6.1' id='um_crop-js'></script>
+<script type='text/javascript' id='um_frontend_common-js-extra'>
+/* <![CDATA[ */
+var um_frontend_common_variables = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/js/common-frontend.min.js?ver=2.8.6' id='um_frontend_common-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/js/um-modal.min.js?ver=2.8.6' id='um_modal-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/jquery-form/jquery-form.min.js?ver=2.8.6' id='um_jquery_form-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/fileupload/fileupload.js?ver=2.8.6' id='um_fileupload-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/js/um-functions.min.js?ver=2.8.6' id='um_functions-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/js/um-responsive.min.js?ver=2.8.6' id='um_responsive-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/js/um-conditional.min.js?ver=2.8.6' id='um_conditional-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/select2/select2.full.min.js?ver=4.0.13' id='select2-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/select2/i18n/de.js?ver=4.0.13' id='um_select2_locale-js'></script>
+<script type='text/javascript' id='um_raty-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "ultimate-member", {"translation-revision-date":"2024-08-24 02:11:12+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Not rated yet!":["Noch nicht bewertet!"],"Cancel this rating!":["Diese Bewertung abbrechen!"]}},"comment":{"reference":"assets\/libs\/raty\/um-raty.js"}} );
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/libs/raty/um-raty.min.js?ver=2.6.0' id='um_raty-js'></script>
+<script type='text/javascript' id='um_scripts-js-extra'>
+/* <![CDATA[ */
+var um_scripts = {"max_upload_size":"1073741824","nonce":"73711dd262"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/js/um-scripts.min.js?ver=2.8.6' id='um_scripts-js'></script>
+<script type='text/javascript' id='um_profile-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "ultimate-member", {"translation-revision-date":"2024-08-24 02:11:12+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Are you sure that you want to delete this user?":["Bist du sicher, dass du diesen Benutzer l\u00f6schen m\u00f6chtest?"]}},"comment":{"reference":"assets\/js\/um-profile.js"}} );
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/js/um-profile.min.js?ver=2.8.6' id='um_profile-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ultimate-member/assets/js/um-account.min.js?ver=2.8.6' id='um_account-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19' id='lodash-js'></script>
+<script type='text/javascript' id='lodash-js-after'>
+window.lodash = _.noConflict();
+</script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/dist/vendor/react.min.js?ver=17.0.1' id='react-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=17.0.1' id='react-dom-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/dist/escape-html.min.js?ver=ce66e0f9acf6802317399656243ffbc4' id='wp-escape-html-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/wp-includes/js/dist/element.min.js?ver=fb9def72b4f6427aa79ce1c534a205cc' id='wp-element-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ai-engine/app/chatbot.js?ver=1707039032' id='mwai_chatbot-js'></script>
+<script type='text/javascript' src='https://datalab.stackfuel.com/app/plugins/ai-engine/vendor/highlightjs/highlight.min.js?ver=11.7' id='mwai_highlight-js'></script>
+		<script type="text/javascript">
+			jQuery( window ).on( 'load', function() {
+				jQuery('input[name="um_request"]').val('');
+			});
+		</script>
+	<!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['setUserId', '13864']);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+
+    (function () {
+        var u = "//matomo.stackfuel.com/";
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.async = true;
+        g.src = u + 'matomo.js';
+        s.parentNode.insertBefore(g, s);
+    })();
+
+    function interactionTracking(category, action, name, value, trainingName, lecture) {
+        let dimensions = {};
+        if(trainingName) {
+            dimensions.dimension2 = trainingName;
+        }
+        if(lecture) {
+            dimensions.dimension3 = lecture;
+        }
+        if(Object.keys(dimensions).length === 0) {
+            if(typeof trackingContext !== 'undefined') {
+                if(typeof trackingContext.trainingName !== 'undefined' && trackingContext.trainingName) {
+                    dimensions.dimension2 = trackingContext.trainingName;
+                }
+                if(typeof trackingContext.lectureName !== 'undefined' && trackingContext.lectureName) {
+                    dimensions.dimension3 = trackingContext.lectureName;
+                }
+            }
+        }
+        if(window._paq) {
+            window._paq.push(['trackEvent', category, action, name, value, dimensions]);
+        } else {
+            console.warn('Interaction tracking code not found. Make sure you have included the interaction tracking code in your HTML.');
+        }
+    }
+
+    const collectionOfFeaturedBanner = document.querySelectorAll('.featured .featured-link');
+    collectionOfFeaturedBanner.forEach((item) => interactionTracking('Training', 'View Featured Banner', item.innerText));
+
+    let upselling_section = document.querySelector('.featured-section');
+    if(upselling_section) {
+        _paq.push(['trackEvent', 'Upsell Funnel', 'Banner interaction', 'Displayed']);
+    }
+</script>
+<!-- End Matomo Code -->
+
+</body>
+</html>
