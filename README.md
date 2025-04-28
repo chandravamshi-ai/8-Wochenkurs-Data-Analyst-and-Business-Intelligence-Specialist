@@ -6,4 +6,4 @@
 
 ### SQL & Relational Databases
 -  [SQL Certificate Link](https://verify.stackfuel.com/xhKB7POuIqDkGUHe#)
-![SQL Certificate](https://github.com/chandravamshi-ai/8-Wochenkurs-Data-Analyst-and-Business-Intelligence-Specialist/blob/main/Sql%20and%20Relational%20DataBases.png)
+![SQL Certificate](https://github.com/chandravamshi-ai/8-Wochenkurs-Data-Analyst-and-Business-Intelligence-Specialist/blob/main/Certificates/Sql%20and%20Relational%20DataBases.png)
